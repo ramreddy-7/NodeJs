@@ -1,0 +1,7 @@
+This file is created
+    by using writeFileSync method Hello Dude ... Iam 2nd file ... :)This file is created
+    by using writeFileSync method Hello Dude ... Iam 2nd file ... :)1This file is created
+    by using writeFileSync method Hello Dude ... Iam 2nd file ... :)1This file is created
+    by using writeFileSync method Hello Dude ... Iam 2nd file ... :)1This file is created
+    by using writeFileSync method Hello Dude ... Iam 2nd file ... :)1This file is created
+    by using writeFileSync method Hello Dude ... Iam 2nd file ... :)1

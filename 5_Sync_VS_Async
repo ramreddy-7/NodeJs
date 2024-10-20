@@ -1,0 +1,18 @@
+             synchronus 
+ 
+The synchronous APIs block runs the Node Js event loop and further execution
+until the operation is complete.
+Exceptions are thrown immediately using try... catch..... block.
+
+Synchronous is a blocking architecture , so the excecution of each operation
+depends the one before it.
+
+In synchronous whatever statements we print they execute line by line..
+
+    Asynchronus callback
+
+Asynchronous is non-blocking , architecture so the excecution of one task is not dependent on another.  Tasks can run simentniously....
+
+1.callback
+2.promises
+3.Async-Await

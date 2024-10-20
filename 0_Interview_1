@@ -1,0 +1,45 @@
+1 . Node js is a Async language .. and Single Threaded...
+
+     Run first script , Run second script(Complex data).
+     It will not wait to finish second script 
+     Run third script.
+
+
+2 . We cant access node js folders from outside drives like c drive,d drive etc..
+    Because it is a Web server .
+
+3 .  Buffer : Buffer is a way to store and manipulate binary data in node JS.
+
+4 . Synchronous : In Synchronous tasks are performed one at time.                After completion of previous task only next task is excecuted.
+
+    Asynchronous :In Asnchronous if complex task is in first it not wait
+ for that task to excecute it goes for next task to excecute.
+
+5 . How Node JS works :
+
+        (Event Loop)
+
+     i) Call Stack
+     ii) Node API
+     iii) Call Back Queue
+
+I) Call Stack : JavaScript uses a Call Stack to track the functions in a program.
+All the functions which we are gonna excecuted track by call stack .It works 
+on the LIFO principle.It means the most recently called functions will be excecuted first.
+
+II) Node API : Node API is a tool kit .It acts an intermediate between 
+C/C++ code and Node Javascript engine .
+Whenever Call Stack track the complex functions like callbacks it push to Node
+API . in node API it complete its task and it send to call Back Queue.
+
+III) Call Back Queue : The Call BAck Queue is all the call back functions that 
+are ready to fired . We move all functions from Node API to call Back Queue.
+Now the call Back queue is where our call back functions will wait .they need
+to wait for the Call Stack is empty. After call stack gets empty th first 
+function from queue will push into Call Stack . Again call stack perfrom its
+operation
+
+
+
+
+

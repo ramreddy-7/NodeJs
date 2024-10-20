@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "1.Global.js",
+  "scripts": {
+    "start": "node 7_NPM.js",
+    "dev": "nodemon 7_NPM.js"
+  },
+  "keywords": [],
+  "author": "ram reddy",
+  "license": "ISC",
+  "description": "Ram Reddys packagr",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "colors": "^1.4.0",
+    "lodash": "^4.17.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ramreddy_07"
+  }
+}
